@@ -34,4 +34,8 @@ per ogni appello d'Esame a cui lo Studente ha partecipato, è necessario memoriz
 id_corso_laurea | INT,
 drescrizione | TEXT()
 
-##
+## insegnanti 
+- id_insegnante | INT PRIMARY KEY,
+- nome VARCHAR(250) | NOT NULL,
+- cognome VARCHAR(255) | NOT NULL,
+- email | VARCHAR(250) 
