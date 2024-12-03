@@ -16,3 +16,10 @@ per ogni appello d'Esame a cui lo Studente ha partecipato, è necessario memoriz
  - esami(appelli d'esame)
  - studenti 
  - partecipazioni agli esami
+
+ --------------------------------------------------
+
+ ## dipartimenti 
+- id_dipartimento (PK)| INT | NOT NULL
+- nome | VARCHAR(250) NOTNULL
+
