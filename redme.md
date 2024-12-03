@@ -23,3 +23,15 @@ per ogni appello d'Esame a cui lo Studente ha partecipato, è necessario memoriz
 - id_dipartimento (PK)| INT | NOT NULL
 - nome | VARCHAR(250) NOTNULL
 
+## corsi laurea 
+- id_corso_laurea | INT PK
+- nome | VARCHAR(250) NOTNULL
+- id_dipartimento | INT 
+
+## corsi
+- id_corso | INT PK
+- nome | VARCHAR(250) NOTNULL
+id_corso_laurea | INT,
+drescrizione | TEXT()
+
+##
