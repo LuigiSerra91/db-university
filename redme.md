@@ -15,4 +15,4 @@ per ogni appello d'Esame a cui lo Studente ha partecipato, è necessario memoriz
  - insegnanti 
  - esami(appelli d'esame)
  - studenti 
- - partecipazioni agli esami 
+ - partecipazioni agli esami
