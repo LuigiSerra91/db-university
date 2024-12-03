@@ -39,3 +39,28 @@ drescrizione | TEXT()
 - nome VARCHAR(250) | NOT NULL,
 - cognome VARCHAR(255) | NOT NULL,
 - email | VARCHAR(250) 
+
+
+## esami 
+ -  id_esame INT PRIMARY KEY,
+ - id_corso INT,
+ - data DATE,
+ - sessione VARCHAR(255),
+
+
+## studenti 
+ - id_studente INT PRIMARY KEY,
+ - nome VARCHAR(255) NOT NULL,
+ - cognome VARCHAR(255) NOT NULL,
+ - data_nascita DATE,
+ - id_corso_laurea INT,
+
+
+## partecipazione esame
+ - id_studente INT,
+ - id_esame INT,
+ - voto DECIMAL(5,2),
+ - esito VARCHAR(50),
+
+
+
