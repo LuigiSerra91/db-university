@@ -58,5 +58,8 @@ VALUES (2, 'Mario', 'Rossi', '1990-01-01', 'RSSMRA90A01H501Z', '2024-12-04', '98
 
 UPDATE teachers SET office_number=126 WHERE id=58
 
+# QUERY11
+
+DELETE FROM students WHERE id=5001
 
 
