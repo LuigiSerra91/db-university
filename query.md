@@ -23,3 +23,24 @@ SELECT *
 FROM `courses`
 WHERE YEAR = 1
 AND period = 'I semestre';
+
+# QUERY 5
+
+SELECT *
+FROM `exams`
+WHERE hour >'14:00'
+AND date = '2020-06-20';
+
+# QUERY 6 
+
+SELECT *
+FROM `degrees`
+WHERE level = 'magistrale';
+
+# QUERY 7 
+
+SELECT *
+FROM `departments`
+
+
+
