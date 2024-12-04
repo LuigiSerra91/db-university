@@ -1,2 +1,2 @@
-SELECT *
+SELECT COUNT('id')
 FROM `departments`

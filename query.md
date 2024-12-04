@@ -39,14 +39,14 @@ WHERE level = 'magistrale';
 
 # QUERY 7 
 
-SELECT *
+SELECT COUNT('id')
 FROM `departments`
 
 # QUERY 8 
 
-SELECT *
-FROM `teachers`
-WHERE PHONE <> 'null';
 
+SELECT COUNT(*)
+FROM `teachers`
+WHERE PHONE is null;
 
 

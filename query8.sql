@@ -1,3 +1,3 @@
-SELECT *
+SELECT COUNT(*)
 FROM `teachers`
-WHERE PHONE <> 'null';
+WHERE PHONE is null;
