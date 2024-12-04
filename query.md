@@ -42,5 +42,11 @@ WHERE level = 'magistrale';
 SELECT *
 FROM `departments`
 
+# QUERY 8 
+
+SELECT *
+FROM `teachers`
+WHERE PHONE <> 'null';
+
 
 
