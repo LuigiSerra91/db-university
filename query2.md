@@ -29,3 +29,14 @@ GROUP BY `exam_id`, `student_id`
 <!-- Contare quanti corsi di laurea ci sono per ogni dipartimento -->
 
 
+SELECT COUNT(`degrees`.`id`), `departments`.`name`
+FROM `departments`
+JOIN `degrees`
+ON `departments`.`id` = `degrees`.`department_id`
+GROUP BY `departments`.`id`, `departments`.`name`
+
+<!-- join -->
+
+# QUERY 5 
+
+<!-- Selezionare tutti gli studenti iscritti al Corso di Laurea in Economia -->
